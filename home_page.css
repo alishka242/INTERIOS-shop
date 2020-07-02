@@ -127,13 +127,18 @@
     height: 270px;
     text-align: center;
     margin-right: 30px;
-    /*
-    padding: 62px 23px 0px;
-    margin-right: 30px;*/
 }
 
 .feature_picture_1{
+    background-image: url(img/home/lamp.jpg);
+}
+
+.feature_picture_2{
     background-image: url(img/home/chair.jpg);
+}
+
+.feature_picture_3{
+    background-image: url(img/home/jug.jpg);
 }
 
 .feature_picture_4{
@@ -141,19 +146,29 @@
     margin-right: -30px;
 }
 
-.f_arr_padd{
-    width: 202px;
-    height: 210px;
-    margin: 60px 32px 0px 32px;
+.feature_down_a{
+    text-decoration: none;
 }
 
-.feature_down_a{
-    display: inline-block;
+.f_arr_padd{
+    display: none;
+    width: 202px;
+    height: 210px;
+    padding: 60px 32px 0px 32px;
+    background-color: #ffffff;
+    width: 205px;
+    outline: 1px solid black;
+    opacity: 0.9;
+}
+
+.feature_down_alignment:hover .f_arr_padd{
+    display: block;
 }
 
 .feature_arr_center{
     display: flex;
     justify-content: center;
+    margin-bottom: 17px;
 }
 
 .feature_arrow{
@@ -166,6 +181,21 @@
     align-items: center; 
     box-shadow: 0px 3px 7px rgba(0,0,0,0.5);  
 }
+
+.featured_h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.featured_text{
+    margin-top: 33px;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
 
 /*
 .feature_picture_2{
@@ -204,22 +234,6 @@
     z-index: 2;
 }
 
-
-
-
 .f_arr_padd{
     margin: 0px 88px 19px;
 }
-
-.featured_h3{
-    font-size: 22px;
-    font-weight: 700;
-    color: #212121;
-}
-
-.featured_text{
-    font-size: 10.8px;
-    color: #6c6c6c;
-    margin-top: 24px;
-}
-
